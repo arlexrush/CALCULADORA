@@ -1,0 +1,82 @@
+.calculatore{
+    display: block;
+    background-color: #020005;
+    margin:0 auto;
+    padding:20px;
+   
+}
+
+#tabloide{
+
+    display: block;
+    background-color: rgb(255, 139, 30);
+    margin:0 auto;
+    padding:10px;
+    width: 410px;
+    height: 600px;
+    border-radius: 200px;
+
+}
+
+#tabloide tr{
+    display: flex;
+    padding-left:60px;
+    
+}
+
+#tablauno{
+
+    display: flex;
+    margin-top: 100px;
+
+}
+
+#tablados{
+
+    display: flex;
+    margin-top:10px;
+    padding-left: 20px;
+
+}
+
+.calculatore td button{
+
+    display: block;
+    width: 70px;
+    height: 60px;
+    font-size: 35px;
+    
+}
+
+#igual {
+
+    width: 240px;
+    height: 60px;
+}
+
+#clear{
+
+    background-color: rgb(189, 91, 84);
+
+}
+
+
+#igual{
+
+    background-color: rgb(84, 189, 93);
+
+}
+
+#resultado{
+
+display: flex;
+text-align: center;
+font-size: 45px;
+width: 300px;
+height: 100px;
+margin-bottom:10px;
+line-height: 100px;
+background-color: white;
+border-radius: 25px;
+overflow-y: scroll;
+}
